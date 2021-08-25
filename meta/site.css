@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+	body {
+		margin-top: 4.5em;
+	}
+
+	.text {
+		font-family: 'Quicksand';
+	}
+
+	.high-text {
+		color: #42b6f4;
+		font-family: 'Quicksand';
+	}
+
+	.low-text {
+		color: #70757c;
+		font-family: 'Quicksand';
+	}
+
+	.button {
+		  position: relative;
+		  border: 0px;
+		  padding: 8px 16px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 8px 6px;
+		  border-radius: 12px;
+		  -webkit-transition-duration: 0.4s; /* Safari */
+		  transition-duration: 0.4s;
+		  cursor: pointer;
+		  font-family: 'Quicksand';
+		}
+
+		.button1 {
+		  background-color: #035682;
+		  color: white; 
+		}
+
+		.button1:hover {
+		  background-color: white;
+		  color: #035682;
+		  border: 1px solid #035682;
+		}
+
+		.button2 {
+		  background-color: #0b85c6;
+		  color: white; 
+		}
+
+		.button2:hover {
+		  background-color: white;
+		  color: #0b85c6;
+		  border: 1px solid #0b85c6;
+		}  
+
+		.button3 {
+		  background-color: #c10a07;
+		  color: white; 
+		}
+
+		.button3:hover {
+		  background-color: white;
+		  color: #c10a07;
+		  border: 1px solid #c10a07;
+		}
+
+		.fixed-div {
+		   position: fixed;
+		   left: 0;
+		   bottom: 0;
+		   width: 100%;
+		}
